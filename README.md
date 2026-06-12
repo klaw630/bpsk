@@ -3,8 +3,8 @@ This is a BPSK encoder and decoder written in plain C.
 Generates a BPSK signal at 1000Hz and decodes it from a .wav file.
 
 ## Settings
-Set the bitrate at `int bitrate = 10`, but you need to do that in `decoder.c`, `encoder.c` and at `func.h - bpsk_encoding()`.
-Set filename at `encoder.c - write_wav()` and at `decoder.c - read_wav()`
+Set the bitrate at `int bitrate = 10`, but you need to do that in `decoder.c`, `encoder.c` and at `func.h - bpsk_encoding()`.  
+Set filename at `encoder.c - write_wav()` and at `decoder.c - read_wav()`  
 Set text at `encoder.c - char text[] = "Here";`
 
 ## Instructions
